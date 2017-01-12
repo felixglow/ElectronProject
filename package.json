@@ -1,0 +1,19 @@
+{
+  "name": "ElectronDemoProject",
+  "version": "1.0.0",
+  "description": "A minimal Electron application, student management",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "Electron",
+    "demo"
+  ],
+  "author": "Felix",
+  "devDependencies": {
+    "electron-prebuilt": "1.4.13",
+    "sql.js": "0.4.0",
+    "electron-packager": "^8.5.0"
+  }
+}

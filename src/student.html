@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Student Management</title>
+    <link rel="stylesheet" href="css/photon.min.css">
+    <link rel="stylesheet" href="css/student.css"/>
+</head>
+<body>
+<div class="window">
+    <div class="window-content">
+        <div class="pane-group">
+            <div class="pane pane-sm sidebar">
+                <nav class="nav-group">
+                    <h5 class="nav-group-title">Student Management</h5>
+                    <a href="student.html"><span class="nav-group-item active">
+                        <span class="icon icon-user"></span>学生管理</span></a>
+                </nav>
+            </div>
+
+            <div class="pane">
+                <header class="toolbar toolbar-header">
+                    <div class="toolbar-actions">
+                        <div class="btn-group">
+                            <a href="add_student.html">
+                                <button class="btn btn-default">
+                                    <span class="icon icon-user-add"></span>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </header>
+                <table class="table-striped">
+                    <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Course</th>
+                        <th>Remark</th>
+                    </tr>
+                    </thead>
+                    <tbody class="table-content">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/sql.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/student.js"></script>
+<script>
+    getStudentList()
+</script>
+</body>
+</html>
